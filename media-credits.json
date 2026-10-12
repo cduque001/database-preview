@@ -1,0 +1,126 @@
+[
+  {
+    "manifest": "media-sources.json",
+    "data": [
+      {
+        "file": "server-room-pexels-5028622.mp4",
+        "creator": "ALL IZ Well",
+        "source": "https://www.pexels.com/video/database-storage-of-a-server-5028622/",
+        "license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "use": "Source for muted four-second server-room-insert.mp4; earlier opening alternative and brief data-center context in Scene02PhysicalV2."
+      },
+      {
+        "file": "ssd-nvme-photo.jpg",
+        "creator": "Przemek Leśniewski",
+        "source": "https://www.pexels.com/photo/close-up-of-lexar-nvme-ssd-on-circuit-board-35984425/",
+        "license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "use": "Actual SSD photograph, contained without cropping; illustrates another drive form, not the exact generic drawing"
+      },
+      {
+        "source": "https://commons.wikimedia.org/wiki/File:Samsung_SSD_840_120GB_MZ-7TD120--4_LID_REMOVED.JPG",
+        "creator": "MatteX",
+        "license": "CC0",
+        "use": "Research reference only; download403, not included"
+      },
+      {
+        "file": "packing-pexels-7855154.mp4",
+        "creator": "Kampus Production",
+        "source": "https://www.pexels.com/video/a-seller-packing-the-purchase-order-7855154/",
+        "license": "Pexels License",
+        "license_url": "https://www.pexels.com/license/",
+        "use": "Source for muted packing-insert.mp4 (first3.6seconds,960x540,30fps). Real parcel packing in Scene05UpdateV2; generic illustrative order fulfilment, not evidence of this fictional order42."
+      }
+    ]
+  },
+  {
+    "manifest": "media-v3-sources.json",
+    "data": {
+      "assets": [
+        {
+          "file": "shoe-gray-photo.jpg",
+          "creator": "Andrey Matveev",
+          "source": "https://www.pexels.com/photo/gray-shoe-on-gray-background-27361691/",
+          "license": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "download_url": "https://images.pexels.com/photos/27361691/pexels-photo-27361691.jpeg?auto=compress&w=1400",
+          "kind": "real photograph",
+          "processing": "Downloaded as proportional full-frame JPEG from Pexels image endpoint. No AI generation, background removal, retouching, crop, or logo modification.",
+          "note": "Recommended repeated shoe product photo. Full horizontal single shoe; real molded side mark preserved.",
+          "width": 1400,
+          "height": 1050,
+          "included_in_photo_cut": true
+        },
+        {
+          "file": "book-product-photo.jpg",
+          "creator": "Book Hut",
+          "source": "https://www.pexels.com/photo/book-on-white-background-19295972/",
+          "license": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "download_url": "https://images.pexels.com/photos/19295972/pexels-photo-19295972.jpeg?auto=compress&w=1000",
+          "kind": "real photograph",
+          "processing": "Downloaded as proportional full-frame JPEG from Pexels image endpoint. No AI generation, background removal, retouching, crop, or logo modification.",
+          "note": "Full brown hardcover notebook on pale linen. Clean product silhouette but no visible spine.",
+          "width": 1000,
+          "height": 1333,
+          "included_in_photo_cut": true
+        },
+        {
+          "file": "bag-product-photo.jpg",
+          "creator": "Muneeb Malhotra",
+          "source": "https://www.pexels.com/photo/brown-bag-on-white-background-22434767/",
+          "license": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "download_url": "https://images.pexels.com/photos/22434767/pexels-photo-22434767.jpeg?auto=compress&w=1000",
+          "kind": "real photograph",
+          "processing": "Downloaded as proportional full-frame JPEG from Pexels image endpoint. No AI generation, background removal, retouching, crop, or logo modification.",
+          "note": "Recommended bag: full unbranded brown leather handbag on clean pale background.",
+          "width": 1000,
+          "height": 1414,
+          "included_in_photo_cut": true
+        },
+        {
+          "file": "shopping-insert.mp4",
+          "original": "shopping-pexels-6347113.mp4",
+          "contact_sheet": "shopping-contact.jpg",
+          "creator": "Liza Summer",
+          "source": "https://www.pexels.com/video/woman-shopping-online-using-smartphone-6347113/",
+          "license": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "download_url": "https://www.pexels.com/download/video/6347113/",
+          "kind": "real filmed video",
+          "source_start_seconds": 2.4,
+          "duration_seconds": 3.166667,
+          "processing": "Trimmed to approximately 3.2 seconds, audio removed, scaled proportionally, normalized to 30 fps with ffmpeg; no crop or visual alteration.",
+          "note": "Woman inspecting clothing image on phone, natural finger movement; use for a local-device bridge around 74–76s or browsing attention reset. Shows the photo viewer, not a payment confirmation.",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "30/1",
+          "nb_frames": "95",
+          "included_in_photo_cut": true
+        },
+        {
+          "file": "hardware-insert.mp4",
+          "original": "hardware-pexels-6754818.mp4",
+          "contact_sheet": "hardware-contact.jpg",
+          "creator": "Tima Miroshnichenko",
+          "source": "https://www.pexels.com/video/close-up-view-of-a-motherboard-6754818/",
+          "license": "Pexels License",
+          "license_url": "https://www.pexels.com/license/",
+          "download_url": "https://www.pexels.com/download/video/6754818/",
+          "kind": "real filmed video",
+          "source_start_seconds": 4,
+          "duration_seconds": 3.2,
+          "processing": "Trimmed to approximately 3.2 seconds, audio removed, scaled proportionally, normalized to 30 fps with ffmpeg; no crop or visual alteration.",
+          "note": "Macro dolly across a real motherboard. Generic hardware bridge only: do not call these particular visible chips RAM or SSD.",
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "30/1",
+          "nb_frames": "96",
+          "included_in_photo_cut": true
+        }
+      ]
+    }
+  }
+]
