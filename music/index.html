@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Adventure music · Two takes</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,sans-serif;background:#10171a;color:#eff5ee}*{box-sizing:border-box}body{margin:0;padding:36px 20px 60px}main{max-width:820px;margin:auto}.eyebrow{color:#b5e477;font-size:12px;letter-spacing:.13em;text-transform:uppercase}h1{font-size:clamp(32px,7vw,55px);line-height:1.04;letter-spacing:-.045em;margin:18px 0}p{color:#b0bdbb;line-height:1.55}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:30px 0}article{background:#1a2428;border:1px solid #33413f;border-radius:20px;padding:23px;min-width:0}h2{font-size:23px;margin:0 0 4px}.meta{font-size:13px;color:#b5e477;margin-bottom:22px}label{display:block;color:#dae4de;font-size:14px;margin:18px 0 10px}audio{width:100%;height:45px}a{color:#c5ef8e;text-underline-offset:4px}.downloads{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.downloads a{border:1px solid #526047;border-radius:9px;padding:10px 12px;text-decoration:none;font-size:13px}.downloads a:hover{background:#30422a}details{margin-top:25px;color:#b0bdbb;font-size:13px;line-height:1.6}summary{cursor:pointer}.note{font-size:13px}footer{border-top:1px solid #33413f;padding-top:18px;font-size:13px}@media(max-width:620px){.grid{grid-template-columns:1fr}body{padding:28px 16px}article{padding:20px}}
+</style>
+<main>
+<div class="eyebrow">Music auditions · YuE2</div>
+<h1>A little adventure<br>behind every explanation.</h1>
+<p>Two newly generated takes, prompted for retro anime energy and space for a voice. Start with the narration preview, then hear the music on its own.</p>
+<div class="grid">
+<article><h2>Take 1</h2><div class="meta">FULL TRACK · 2:32</div>
+<label for="voice1">With our database narration · 30 seconds</label><audio id="voice1" controls preload="metadata" src="take-01-with-narration.mp3"></audio>
+<label for="solo1">Music only · 90-second edit</label><audio id="solo1" controls preload="metadata" src="take-01-90s.mp3"></audio>
+<div class="downloads"><a href="take-01-60s.mp3" download>60s MP3 ↓</a><a href="take-01-90s.mp3" download>90s MP3 ↓</a><a href="take-01.mp3" download>Full MP3 ↓</a></div></article>
+<article><h2>Take 2</h2><div class="meta">FULL TRACK · 2:20</div>
+<label for="voice2">With our database narration · 30 seconds</label><audio id="voice2" controls preload="metadata" src="take-02-with-narration.mp3"></audio>
+<label for="solo2">Music only · 90-second edit</label><audio id="solo2" controls preload="metadata" src="take-02-90s.mp3"></audio>
+<div class="downloads"><a href="take-02-60s.mp3" download>60s MP3 ↓</a><a href="take-02-90s.mp3" download>90s MP3 ↓</a><a href="take-02.mp3" download>Full MP3 ↓</a></div></article>
+</div>
+<p class="note">The short edits fade out. Narration previews lower the music further while the voice speaks. Your existing finished video is unchanged.</p>
+<details><summary>Generation and usage details</summary><p>Generated with YuE2 through its NOIZ-hosted demo using a text description. No Dragon Ball recording was uploaded or sampled. These are listening auditions; no guarantee of musical originality or freedom from automated copyright claims is implied.</p><p>YuE2's model license permits individual creators to monetize their outputs. NOIZ's terms permit outside commercial use of created content, subject to third-party rights. <a href="https://github.com/multimodal-art-projection/YuE/blob/main/MODEL_LICENSE">Model license</a> · <a href="https://noiz.ai/resources/law/term-of-service-en.html">Service terms</a></p></details>
+<footer><a href="../?finished=1">Back to the database video</a></footer>
+</main>
+<script>document.querySelectorAll('audio').forEach(a=>a.addEventListener('play',()=>document.querySelectorAll('audio').forEach(b=>{if(b!==a)b.pause()})));</script>
+</html>
